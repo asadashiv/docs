@@ -1,5 +1,5 @@
-ABC.exe:main.o big2.o big3.o fact.o reverse.o palindrome.o
-	gcc -o ABC.exe main.o big2.o big3.o fact.o reverse.o palindrome.o 
+sada.exe:main.o big2.o big3.o fact.o reverse.o palindrome.o
+	gcc -o sada.exe main.o big2.o big3.o fact.o reverse.o palindrome.o 
 
 main.o:main.c
 	gcc -c main.c
