@@ -4,8 +4,8 @@ pipeline{
     stage('build'){
       steps{
         sh '''
-       cd /home/jenkins/workspace/build1
-       make
+        cd /home/jenkins/workspace/projectc
+        make
         '''
       }
     }
