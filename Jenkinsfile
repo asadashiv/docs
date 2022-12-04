@@ -4,7 +4,7 @@ pipeline{
     stage('build'){
       steps{
         sh '''
-       cd /home/jenkins/workspace/projectc
+       cd /home/jenkins/workspace/build1
        make
         '''
       }
