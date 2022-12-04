@@ -6,7 +6,7 @@ pipeline{
         echo "clone stage"
       }
     }
-    stage('build'){
+    stage('build_stage'){
       steps{
         sh '''
         cd /home/jenkins/workspace/workspace/projectc
