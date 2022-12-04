@@ -14,5 +14,10 @@ pipeline{
         '''
       }
     }
+    stage('archive'){
+      steps{
+        archiveArtifacts artifacts: 'sada.exe', followSymlinks: false
+      }
+    }
   }
 }
