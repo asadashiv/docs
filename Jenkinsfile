@@ -7,7 +7,6 @@ pipeline{
        cd /home/jenkins/workspace/projectc
        make
         '''
-     
       }
     }
   }
