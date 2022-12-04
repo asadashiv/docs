@@ -1,7 +1,7 @@
 pipeline{
   agent {label 'slavec'}
   stages{
-    stage('clone'){
+    stage('clone_stage'){
       steps{
         echo "clone stage"
       }
