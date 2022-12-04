@@ -16,7 +16,7 @@ pipeline{
     }
     stage('archive'){
       steps{
-        sh 'archiveArtifacts artifacts: 'sada.exe', followSymlinks: false'
+        archiveArtifacts artifacts: 'sada.exe', followSymlinks: false
       }
     }
   }
