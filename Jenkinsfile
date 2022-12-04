@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('build'){
       steps{
-        sh'''
+        sh '''
         cd /home/jenkins/workspace/projectc
         make
         '''
