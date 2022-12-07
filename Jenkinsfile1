@@ -6,7 +6,6 @@ steps {
 sh '''
 cd /var/lib/jenkins/workspace/
 make
-scp -r /var/lib/jenkins/workspace/buildcp ubuntu@172.31.3.219:/home/ubuntu
 '''
 }
 }
