@@ -6,7 +6,7 @@ steps {
 sh '''
 cd /var/lib/jenkins/workspace/buildcp
 make
-sudo scp -r /var/lib/jenkins/workspace/buildcp ubuntu@172.31.3.219:/home/ubuntu/
+sudo scp -r /var/lib/jenkins/workspace/buildcp ubuntu@172.31.46.64:/home/ubuntu/
 '''
 }
 }
